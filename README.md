@@ -28,7 +28,7 @@ This project involves migrating a legacy back-end system built in the early 1990
 1. **Clone the repository**:
     ```bash
     git clone <repository_url>
-    cd Back-End-Migration
+    cd Back-End programming
     ```
 
 2. **Update application.properties**: Update the `application.properties` file with your MySQL database credentials.
