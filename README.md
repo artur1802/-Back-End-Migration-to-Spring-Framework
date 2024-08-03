@@ -1,12 +1,41 @@
-Legacy Back-End Migration to Spring Framework
 
-Developed a modern back-end solution using Spring Initializr, integrating essential dependencies including Spring Data JPA, Rest Repositories, MySQL Driver, and Lombok, to replace a deprecated legacy system.
+# **Back-End Migration to Spring Framework**
 
-Created and organized packages for controllers, entities, DAOs, and services to structure the application efficiently, and implemented code for entities and repositories based on provided UML diagrams and requirements.
+## **Overview**
+This project involves migrating a legacy back-end system built in the early 1990s to a modern Spring framework. 
 
-Designed and implemented service layers with purchase data classes and validation mechanisms to enforce input requirements from the Angular front-end, ensuring data integrity and application stability.
+## **Features**
+- **Spring Initializr setup with essential dependencies**: Spring Data JPA, Rest Repositories, MySQL Driver, and Lombok.
+- **Organized package structure**: Controllers, entities, DAOs, and services.
+- **Service layers and validation mechanisms** to ensure data integrity.
+- **RESTful checkout controller** with cross-origin support.
+- **Sample data insertion** to ensure persistent information.
 
-Configured and deployed a RESTful checkout controller to handle customer orders, and added cross-origin support to facilitate smooth interactions between front-end and back-end.
-Programmatically added sample customer data to ensure persistent information across application restarts, and validated application functionality by executing a real-world order scenario.
+## **Technologies Used**
+- **Java**
+- **Spring Framework**
+- **MySQL**
+- **Lombok**
 
-Verified system integration and functionality by running end-to-end tests, capturing screenshots of successful data operations and database entries, and ensuring no network errors during interactions.
+## **What I Learned**
+- **Spring Framework**: Gained proficiency in setting up and using Spring Boot, Spring Data JPA, and other related dependencies.
+- **RESTful Services**: Developed and tested RESTful services for handling customer orders and ensuring smooth interaction between front-end and back-end.
+- **Database Integration**: Integrated MySQL database with the Spring Boot application and implemented data persistence.
+- **Code Organization**: Learned best practices for organizing code into controllers, services, DAOs, and entities.
+- **Validation and Error Handling**: Implemented input validation and error handling to ensure data integrity and application stability.
+
+  ## **How to Run**
+1. **Clone the repository**:
+    ```bash
+    git clone <repository_url>
+    cd Back-End-Migration
+    ```
+
+2. **Update application.properties**: Update the `application.properties` file with your MySQL database credentials.
+
+3. **Build and run the project**:
+    ```bash
+    mvn spring-boot:run
+    ```
+
+4. **Access the application**: Open your browser and navigate to `http://localhost:8080`.
